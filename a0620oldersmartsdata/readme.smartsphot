@@ -1,0 +1,8 @@
+two different files for several filters:
+XSMARTS = JD and mag for that filter ('X')
+Xmatched = files that include activity (passive, active, etc.) and flux values
+    columns:  jd, mag, jd_2, flux, activity, Separation
+    --ignore jd_2 and Separation -- they were just used to match values and put them in one table
+    --the "flux" column is in unknown arbitrary units, and is only the nonstellar light, not the total emission [therefore should be ignored also]
+    --activity column:  1 = active, 0 = passive, -1 = unknown
+
