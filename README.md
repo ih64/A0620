@@ -14,6 +14,8 @@ The FITS images and the photometry files are not in this repository. The total n
 
 ============
 Dependencies
-
-To do absolutely everything in this notebook, you need alipy, pyfits3, pyraf, numpy, and pandas, and asciidata. 
+------------
+To do absolutely everything in this notebook, you need astropy, alipy, pyfits3, pyraf, numpy, and pandas, and asciidata. 
 These are all open source python packages, so you can download them to your system.
+
+If you just want to use the code to mess around with the ascii data, you just need pandas and numpy
