@@ -1,4 +1,4 @@
-# A0620-00 SMARTS Optical PHOTOMETRY
+# A0620-00 SMARTS Optical Photometry
 optical light curves for SMARTS data on the X-Ray Binary source A0620-00
 
 This repository contains photometry provided by Andy Cantrell and Rachel MacDonald on SMARTS observations taken from about 2003-2008
@@ -15,7 +15,8 @@ The FITS images and the photometry files are not in this repository. The total n
 
 Dependencies
 ------------
-To do absolutely everything in this notebook, you need astropy, alipy (http://obswww.unige.ch/~tewes/alipy/index.html), pyfits3, pyraf, numpy, pandas, and asciidata (http://www.stecf.org/software/PYTHONtools/astroasciidata/). 
-These are all open source python packages, so you can download them to your system.
+To do absolutely everything in this notebook, you need  the following python packages : [astropy](http://www.astropy.org/), [alipy](http://obswww.unige.ch/~tewes/alipy/index.html), [pyfits3](http://www.stsci.edu/institute/software_hardware/pyfits/), [pyraf](http://www.stsci.edu/institute/software_hardware/pyraf), [numpy](http://www.numpy.org/), [pandas](http://pandas.pydata.org/), and [asciidata](http://www.stecf.org/software/PYTHONtools/astroasciidata/), and their dependencies therein. These are all open source python packages so you can download them to your system, although most come with the conda distribution.
+
+There are also some instructional sections in the IPython notebook that refer to [IRAF](http://iraf.noao.edu/), and [SOA Image DS9](http://ds9.si.edu/site/Download.html)
 
 If you just want to use the code to mess around with the ascii data, you just need pandas and numpy
