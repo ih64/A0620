@@ -12,10 +12,10 @@ In the IPython notebook you will find routines for aligning the fits images in d
 
 The FITS images and the photometry files are not in this repository. The total number of photometry and FITS files would be around 5000 files, and not feesible. However, the FITS images are accessible on the SMARTS FTP site, and can be downloaded there. Once the FITS files are obtained, one can use the code in this IPython notebook to reproduce these results. Send me an email if you are interested. 
 
-============
+
 Dependencies
 ------------
-To do absolutely everything in this notebook, you need astropy, alipy, pyfits3, pyraf, numpy, and pandas, and asciidata. 
+To do absolutely everything in this notebook, you need astropy, alipy (http://obswww.unige.ch/~tewes/alipy/index.html), pyfits3, pyraf, numpy, pandas, and asciidata (http://www.stecf.org/software/PYTHONtools/astroasciidata/). 
 These are all open source python packages, so you can download them to your system.
 
 If you just want to use the code to mess around with the ascii data, you just need pandas and numpy
